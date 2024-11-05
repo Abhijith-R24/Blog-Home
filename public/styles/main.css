@@ -1,0 +1,113 @@
+h1 {
+    display: inline-block;
+    margin-right: 20px; /* Adds space between heading and link */
+  }
+  
+  .create-post-link {
+    display: inline-block;
+    font-size: 1rem;
+    color: #3586ff;
+    text-decoration: none;
+  }
+  
+  .create-post-link:hover {
+    text-decoration: underline;
+  }
+  
+/* Container for Blog Home and Create New Post */
+.header-container {
+    display: flex;
+    align-items: center; /* Aligns vertically */
+    gap: 15px; /* Space between elements */
+    padding: 10px; /* Adds padding around the container */
+  }
+  
+  /* Styling for Blog Home Title */
+  .header-container h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  /* Styling for Create New Post Link */
+  .create-post-link {
+    font-size: 1rem;
+    color: #3586ff;
+    text-decoration: none;
+  }
+  
+  /* Optional: Add hover effect for the link */
+  .create-post-link:hover {
+    text-decoration: underline;
+  }
+  
+/* Center the form within the container */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+  }
+  
+  /* Style the form container */
+  form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Input field styles */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  /* Focus effect for input fields */
+  input[type="text"]:focus,
+  textarea:focus {
+    border-color: #3586ff;
+    outline: none;
+  }
+  
+  /* Textarea adjustments */
+  textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  /* Submit button styles */
+  input[type="submit"] {
+    width: 100%;
+    background-color: #3586ff;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for submit button */
+  input[type="submit"]:hover {
+    background-color: #2b6dcf;
+  }
+  
+  /* Optional: Style for placeholder text */
+  ::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  
